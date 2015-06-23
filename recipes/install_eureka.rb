@@ -13,14 +13,6 @@ docker_image 'netflixoss/eureka' do
 end
 
 docker_container 'eureka' do
-  action :stop
-end
-
-docker_container 'eureka' do
-  action :remove
-end
-
-docker_container 'eureka' do
   action :run
   detach true
   container_name 'eureka'
