@@ -1,1 +1,1 @@
-["docker"]["image_cmd_timeout"] = "600"
+set["docker"]["image_cmd_timeout"] = "600"
