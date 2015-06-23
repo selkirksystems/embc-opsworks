@@ -8,6 +8,10 @@
 #
 
 #include_recipe "docker"
+group "docker"
+group "docker" do
+  members "ec2-user"
+end
 
 case node[:platform]
   when "ubuntu","debian"
