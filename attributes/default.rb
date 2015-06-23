@@ -1,1 +1,1 @@
-default["docker"]["image_cmd_timeout"] = "600"
+["docker"]["image_cmd_timeout"] = "600"
